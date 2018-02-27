@@ -101,21 +101,20 @@ if __name__ == "__main__":
 
 
 """
-	   _____
-	  /	 .. \ 
+       _____
+      /	 .. \ 
  ____/_______\____
 /_o_o_o_o_o_o_o_o_\  		| ======= In the coldest night ======= |
-\_o_o_o_|_|_o_o_o_/			| === They come from a falling sky === |
-	    / \					| ====== Shining brilliant light ===== |
-	   /   \
-	  /     \
-	 / _O/   \
-	/    \    \      
+\_o_o_o_|_|_o_o_o_/	 	| === They come from a falling sky === |
+        / \			| ====== Shining brilliant light ===== |
+       /   \
+      /     \
+     / _O/   \
+    /    \    \      
    /	 /\_   \     
   / 	 \  ` 	\
- /	     `   	 \ 
-
-     `    
+ /	 `   	 \ 
+   
 """
 
 
