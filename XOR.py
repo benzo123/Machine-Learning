@@ -3,7 +3,7 @@ import numpy as np
 #Creation of the neural network class.
 
 class neural_network():
-	#Initialisation involves the creation of random weight matrixes. 
+#Initialisation involves the creation of random weight matrixes. 
 
     def __init__(self):
         np.random.seed(1)
@@ -33,7 +33,7 @@ class neural_network():
     def back_propagation(self, training_input, training_target, lr, iterations):
     	#Iterates the backpropagation algorithm 'iterations' times.
         for iteration in xrange(iterations):
-        	#Finds a random input (rather than cycling through all the inputs) to improve training speed
+            #Finds a random input (rather than cycling through all the inputs) to improve training speed
             rand_inp = np.random.random_integers(0,3)
             output = self.get_output(training_input[rand_inp])[1]
             hidden = self.get_output(training_input[rand_inp])[0]
@@ -90,7 +90,7 @@ if __name__ == "__main__":
     print neural_network._IH_weights
     print "new H to O weights after training: "
     print neural_network._HO_weights
-	#Prints a blank line (seperates the trained data from the output tests).
+    #Prints a blank line (seperates the trained data from the output tests).
     print ""
     #Prints the output tests.
     print "output test: ", np.transpose(training_targets)
